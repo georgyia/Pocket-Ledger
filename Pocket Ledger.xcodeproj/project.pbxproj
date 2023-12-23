@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48D25C52B373CE000C5B18F /* Pocket_LedgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D25C42B373CE000C5B18F /* Pocket_LedgerApp.swift */; };
+		A48D25C72B373CE000C5B18F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D25C62B373CE000C5B18F /* ContentView.swift */; };
+		A48D25C92B373CE200C5B18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48D25C82B373CE200C5B18F /* Assets.xcassets */; };
+		A48D25CC2B373CE200C5B18F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48D25CB2B373CE200C5B18F /* Preview Assets.xcassets */; };
+		A48D25D62B373CE200C5B18F /* Pocket_LedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D25D52B373CE200C5B18F /* Pocket_LedgerTests.swift */; };
+		A48D25E02B373CE300C5B18F /* Pocket_LedgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D25DF2B373CE300C5B18F /* Pocket_LedgerUITests.swift */; };
+		A48D25E22B373CE300C5B18F /* Pocket_LedgerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D25E12B373CE300C5B18F /* Pocket_LedgerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A48D25D22B373CE200C5B18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A48D25B92B373CE000C5B18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48D25C02B373CE000C5B18F;
+			remoteInfo = "Pocket Ledger";
+		};
+		A48D25DC2B373CE200C5B18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A48D25B92B373CE000C5B18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48D25C02B373CE000C5B18F;
+			remoteInfo = "Pocket Ledger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A48D25C12B373CE000C5B18F /* Pocket Ledger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Ledger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48D25C42B373CE000C5B18F /* Pocket_LedgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_LedgerApp.swift; sourceTree = "<group>"; };
+		A48D25C62B373CE000C5B18F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A48D25C82B373CE200C5B18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A48D25CB2B373CE200C5B18F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A48D25D12B373CE200C5B18F /* Pocket LedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket LedgerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48D25D52B373CE200C5B18F /* Pocket_LedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_LedgerTests.swift; sourceTree = "<group>"; };
+		A48D25DB2B373CE200C5B18F /* Pocket LedgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pocket LedgerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48D25DF2B373CE300C5B18F /* Pocket_LedgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_LedgerUITests.swift; sourceTree = "<group>"; };
+		A48D25E12B373CE300C5B18F /* Pocket_LedgerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocket_LedgerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A48D25BE2B373CE000C5B18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48D25CE2B373CE200C5B18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48D25D82B373CE200C5B18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A48D25B82B373CE000C5B18F = {
+			isa = PBXGroup;
+			children = (
+				A48D25C32B373CE000C5B18F /* Pocket Ledger */,
+				A48D25D42B373CE200C5B18F /* Pocket LedgerTests */,
+				A48D25DE2B373CE300C5B18F /* Pocket LedgerUITests */,
+				A48D25C22B373CE000C5B18F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48D25C22B373CE000C5B18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48D25C12B373CE000C5B18F /* Pocket Ledger.app */,
+				A48D25D12B373CE200C5B18F /* Pocket LedgerTests.xctest */,
+				A48D25DB2B373CE200C5B18F /* Pocket LedgerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48D25C32B373CE000C5B18F /* Pocket Ledger */ = {
+			isa = PBXGroup;
+			children = (
+				A48D25C42B373CE000C5B18F /* Pocket_LedgerApp.swift */,
+				A48D25C62B373CE000C5B18F /* ContentView.swift */,
+				A48D25C82B373CE200C5B18F /* Assets.xcassets */,
+				A48D25CA2B373CE200C5B18F /* Preview Content */,
+			);
+			path = "Pocket Ledger";
+			sourceTree = "<group>";
+		};
+		A48D25CA2B373CE200C5B18F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A48D25CB2B373CE200C5B18F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A48D25D42B373CE200C5B18F /* Pocket LedgerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A48D25D52B373CE200C5B18F /* Pocket_LedgerTests.swift */,
+			);
+			path = "Pocket LedgerTests";
+			sourceTree = "<group>";
+		};
+		A48D25DE2B373CE300C5B18F /* Pocket LedgerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A48D25DF2B373CE300C5B18F /* Pocket_LedgerUITests.swift */,
+				A48D25E12B373CE300C5B18F /* Pocket_LedgerUITestsLaunchTests.swift */,
+			);
+			path = "Pocket LedgerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48D25C02B373CE000C5B18F /* Pocket Ledger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48D25E52B373CE300C5B18F /* Build configuration list for PBXNativeTarget "Pocket Ledger" */;
+			buildPhases = (
+				A48D25BD2B373CE000C5B18F /* Sources */,
+				A48D25BE2B373CE000C5B18F /* Frameworks */,
+				A48D25BF2B373CE000C5B18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket Ledger";
+			productName = "Pocket Ledger";
+			productReference = A48D25C12B373CE000C5B18F /* Pocket Ledger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A48D25D02B373CE200C5B18F /* Pocket LedgerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48D25E82B373CE300C5B18F /* Build configuration list for PBXNativeTarget "Pocket LedgerTests" */;
+			buildPhases = (
+				A48D25CD2B373CE200C5B18F /* Sources */,
+				A48D25CE2B373CE200C5B18F /* Frameworks */,
+				A48D25CF2B373CE200C5B18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48D25D32B373CE200C5B18F /* PBXTargetDependency */,
+			);
+			name = "Pocket LedgerTests";
+			productName = "Pocket LedgerTests";
+			productReference = A48D25D12B373CE200C5B18F /* Pocket LedgerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A48D25DA2B373CE200C5B18F /* Pocket LedgerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48D25EB2B373CE300C5B18F /* Build configuration list for PBXNativeTarget "Pocket LedgerUITests" */;
+			buildPhases = (
+				A48D25D72B373CE200C5B18F /* Sources */,
+				A48D25D82B373CE200C5B18F /* Frameworks */,
+				A48D25D92B373CE200C5B18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48D25DD2B373CE200C5B18F /* PBXTargetDependency */,
+			);
+			name = "Pocket LedgerUITests";
+			productName = "Pocket LedgerUITests";
+			productReference = A48D25DB2B373CE200C5B18F /* Pocket LedgerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A48D25B92B373CE000C5B18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A48D25C02B373CE000C5B18F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A48D25D02B373CE200C5B18F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A48D25C02B373CE000C5B18F;
+					};
+					A48D25DA2B373CE200C5B18F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A48D25C02B373CE000C5B18F;
+					};
+				};
+			};
+			buildConfigurationList = A48D25BC2B373CE000C5B18F /* Build configuration list for PBXProject "Pocket Ledger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A48D25B82B373CE000C5B18F;
+			productRefGroup = A48D25C22B373CE000C5B18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48D25C02B373CE000C5B18F /* Pocket Ledger */,
+				A48D25D02B373CE200C5B18F /* Pocket LedgerTests */,
+				A48D25DA2B373CE200C5B18F /* Pocket LedgerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A48D25BF2B373CE000C5B18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48D25CC2B373CE200C5B18F /* Preview Assets.xcassets in Resources */,
+				A48D25C92B373CE200C5B18F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48D25CF2B373CE200C5B18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48D25D92B373CE200C5B18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A48D25BD2B373CE000C5B18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48D25C72B373CE000C5B18F /* ContentView.swift in Sources */,
+				A48D25C52B373CE000C5B18F /* Pocket_LedgerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48D25CD2B373CE200C5B18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48D25D62B373CE200C5B18F /* Pocket_LedgerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48D25D72B373CE200C5B18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48D25E02B373CE300C5B18F /* Pocket_LedgerUITests.swift in Sources */,
+				A48D25E22B373CE300C5B18F /* Pocket_LedgerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A48D25D32B373CE200C5B18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A48D25C02B373CE000C5B18F /* Pocket Ledger */;
+			targetProxy = A48D25D22B373CE200C5B18F /* PBXContainerItemProxy */;
+		};
+		A48D25DD2B373CE200C5B18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A48D25C02B373CE000C5B18F /* Pocket Ledger */;
+			targetProxy = A48D25DC2B373CE200C5B18F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A48D25E32B373CE300C5B18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A48D25E42B373CE300C5B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A48D25E62B373CE300C5B18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pocket Ledger/Preview Content\"";
+				DEVELOPMENT_TEAM = ULS6F32Q76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.georgyia.Pocket-Ledger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A48D25E72B373CE300C5B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pocket Ledger/Preview Content\"";
+				DEVELOPMENT_TEAM = ULS6F32Q76;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.georgyia.Pocket-Ledger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A48D25E92B373CE300C5B18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULS6F32Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.georgyia.Pocket-LedgerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket Ledger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pocket Ledger";
+			};
+			name = Debug;
+		};
+		A48D25EA2B373CE300C5B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULS6F32Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.georgyia.Pocket-LedgerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pocket Ledger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pocket Ledger";
+			};
+			name = Release;
+		};
+		A48D25EC2B373CE300C5B18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULS6F32Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.georgyia.Pocket-LedgerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pocket Ledger";
+			};
+			name = Debug;
+		};
+		A48D25ED2B373CE300C5B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ULS6F32Q76;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.georgyia.Pocket-LedgerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pocket Ledger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A48D25BC2B373CE000C5B18F /* Build configuration list for PBXProject "Pocket Ledger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48D25E32B373CE300C5B18F /* Debug */,
+				A48D25E42B373CE300C5B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48D25E52B373CE300C5B18F /* Build configuration list for PBXNativeTarget "Pocket Ledger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48D25E62B373CE300C5B18F /* Debug */,
+				A48D25E72B373CE300C5B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48D25E82B373CE300C5B18F /* Build configuration list for PBXNativeTarget "Pocket LedgerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48D25E92B373CE300C5B18F /* Debug */,
+				A48D25EA2B373CE300C5B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48D25EB2B373CE300C5B18F /* Build configuration list for PBXNativeTarget "Pocket LedgerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48D25EC2B373CE300C5B18F /* Debug */,
+				A48D25ED2B373CE300C5B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A48D25B92B373CE000C5B18F /* Project object */;
+}
